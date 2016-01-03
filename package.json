@@ -1,0 +1,29 @@
+{
+  "name": "legends-of-lunchtime",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/Legends-of-Lunchtime.git"
+  },
+  "author": "James Richford <=> (=)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/Legends-of-Lunchtime/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/Legends-of-Lunchtime#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "inversify": "^1.0.3",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {
+    "tsd": "^0.6.5",
+    "typescript": "^1.7.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node"
+    },
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "exclude": [
+        "**/*.d.ts"
+    ],
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "./api/products.ts",
+        "./kernel.ts",
+        "./server.ts",
+        "./startup.ts"
+    ]
+}
