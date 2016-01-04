@@ -21,6 +21,7 @@
     "files": [
         "./api/products.ts",
         "./kernel.ts",
+        "./models/product.ts",
         "./server.ts",
         "./startup.ts"
     ]
